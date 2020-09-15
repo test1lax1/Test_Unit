@@ -6,7 +6,7 @@ class FirstTest(unittest.TestCase):
     # Returns True or False.  
     def test(self): 
         print("First test case")
-        time.sleep(60)
+        time.sleep(10)
         self.assertTrue(True) 
         
 class SecondTest(unittest.TestCase): 
